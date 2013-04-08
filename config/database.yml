@@ -16,8 +16,9 @@ development:
   adapter: postgresql
   encoding: unicode
   database: jaffr_development
+  host: localhost
   pool: 5
-  username: jaffr
+  username: paul
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
