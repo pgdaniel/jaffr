@@ -1,7 +1,11 @@
 Jaffr::Application.routes.draw do
+  root to: "static_pages#home"
+
+  get "static_pages/home"
+  get "static_pages/about"
+
   devise_for :users
   resources :reader
-  root to: "reader#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

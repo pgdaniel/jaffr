@@ -3,7 +3,7 @@ window.Jaffr =
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> alert 'Hello from Backbone!'
+  initialize: -> console.log 'Hello from Backbone! Bitches'
 
 $(document).ready ->
   Jaffr.initialize()
