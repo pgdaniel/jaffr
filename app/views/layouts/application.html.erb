@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
   <title>jaffr</title>
   <%= stylesheet_link_tag    "application", media: "all" %>
@@ -7,23 +7,13 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-<div id="container">
-  <div id="user_nav">
-    <% if user_signed_in? %>
-        Logged in as <strong><%= current_user.email %></strong>.
-        <%= link_to 'Edit profile', edit_user_registration_path %> |
-        <%= link_to "Logout", destroy_user_session_path, method: :delete %>
-    <% else %>
-        <%= link_to "Sign up", new_user_registration_path %> |
-        <%= link_to "Login", new_user_session_path %>
-    <% end %>
-  </div>
+
+<%=  render 'layouts/navbar' %>
 
   <% flash.each do |name, msg| %>
       <%= content_tag :div, msg, id: "flash_#{name}" %>
   <% end %>
 
-  <%= yield %>
-</div>
+  <div class="span9"><%= yield %></div>
 </body>
 </html>
