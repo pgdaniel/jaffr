@@ -3,7 +3,10 @@ window.Jaffr =
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> console.log 'Hello from Backbone! Bitches'
+  initialize: ->
+    console.log "Starting app"
+    new Jaffr.Routers.Articles()
+    Backbone.history.start()
 
 $(document).ready ->
   Jaffr.initialize()

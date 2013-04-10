@@ -1,8 +1,8 @@
 Jaffr::Application.routes.draw do
-  root to: "static_pages#home"
+  resources :article_entries
 
-  get "static_pages/home"
-  get "static_pages/about"
+
+  root to: "reader#index"
 
   devise_for :users
   resources :reader
