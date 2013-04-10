@@ -24,6 +24,11 @@ end
 
 gem 'jquery-rails'
 
+group :development, :test do
+  gem 'jasmine'
+end
+
+
 group :development do
   gem 'rspec-rails'
 end
