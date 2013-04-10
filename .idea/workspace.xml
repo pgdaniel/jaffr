@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jaffr.iml" afterPath="$PROJECT_DIR$/.idea/jaffr.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -45,7 +43,16 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.601145">
+            <state line="31" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.77290076">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="100" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -723,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="26" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.7909091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="6" selection-start="462" selection-end="462" vertical-scroll-proportion="-11.875">
@@ -765,9 +765,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="100" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.601145">
+        <state line="31" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.77290076">
           <folding />
         </state>
       </provider>
