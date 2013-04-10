@@ -65,6 +65,8 @@
     <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.13.0, RVM: ruby-1.9.2-p320 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v2.13.1, RVM: ruby-1.9.2-p320 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v2.13.0, RVM: ruby-1.9.2-p320 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.7, RVM: ruby-1.9.2-p320 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, RVM: ruby-1.9.2-p320 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, RVM: ruby-1.9.2-p320 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.11.4, RVM: ruby-1.9.2-p320 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.18.1, RVM: ruby-1.9.2-p320 [global]) [gem]" level="application" />
