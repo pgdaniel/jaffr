@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jaffr.iml" afterPath="$PROJECT_DIR$/.idea/jaffr.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jaffr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +41,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.77290076">
+            <state line="15" column="2" selection-start="295" selection-end="295" vertical-scroll-proportion="0.3148855">
               <folding />
             </state>
           </provider>
@@ -774,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.77290076">
+        <state line="15" column="2" selection-start="295" selection-end="295" vertical-scroll-proportion="0.3148855">
           <folding />
         </state>
       </provider>
