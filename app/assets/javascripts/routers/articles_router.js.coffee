@@ -3,12 +3,16 @@ class Jaffr.Routers.Articles extends Backbone.Router
     '': 'index'
     'article/:id': 'show'
 
-  index: ->
-    console.log "In the article router"
-    view = new Jaffr.Views.ArticlesIndex()
-    $('#container').html(view.render().el)
+  initialize: ->
+    console.log 'in router init'
+    @collection = new Jaffr.Collections.Articles()
+    @collection.fetch()
 
-  show:(id) ->
+  index: ->
+    view = new Jaffr.Views.ArticlesIndex(collection: @collection)
+    $('#feed-container').html(view.render().el)
+
+  show: (id) ->
     console.log "Article id = #{id}"
 
 

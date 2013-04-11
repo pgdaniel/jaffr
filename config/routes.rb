@@ -1,11 +1,15 @@
 Jaffr::Application.routes.draw do
-  resources :article_entries
-
 
   root to: "reader#index"
 
   devise_for :users
   resources :reader
+
+  scope "api" do
+    resources :articles
+  end
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
