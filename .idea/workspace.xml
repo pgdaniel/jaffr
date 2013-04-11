@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/articles_controller_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/articles_helper.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/article_entries_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/article_entries_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/article_entries_controller_spec.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/article_entries.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/articles.css.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/article_entry.rb" afterPath="$PROJECT_DIR$/app/models/article.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/helpers/article_entries_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/Articles_helper_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/models/article_entry_spec.rb" afterPath="$PROJECT_DIR$/spec/models/article_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/views/articles/articles_index.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/articles/articles_index.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/routers/articles_router.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/routers/articles_router.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/reader/index.html.erb" afterPath="$PROJECT_DIR$/app/views/reader/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/articles/index.jst.eco" afterPath="$PROJECT_DIR$/app/assets/templates/articles/index.jst.eco" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jaffr.iml" afterPath="$PROJECT_DIR$/.idea/jaffr.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jaffr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +19,7 @@
     <file path="/home.html.erb" changelist="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" time="1365571024749" ignored="false" />
     <file path="/articles_router.js.coffee" changelist="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" time="1365648038774" ignored="false" />
     <file path="/articles_index.js.coffee" changelist="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" time="1365649634589" ignored="false" />
-    <file path="/index.jst.eco" changelist="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" time="1365652115211" ignored="false" />
+    <file path="/index.jst.eco" changelist="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" time="1365654107668" ignored="false" />
     <file path="/articles.js.coffee" changelist="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" time="1365628106477" ignored="false" />
     <file path="/.gitignore" changelist="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" time="1365629054883" ignored="false" />
     <file path="/environment.rb" changelist="f98355b0-0fb5-495c-b1c6-f2a8ce908c07" time="1365630223269" ignored="false" />
@@ -81,7 +61,7 @@
       <file leaf-file-name="index.jst.eco" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/templates/articles/index.jst.eco">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.16216215">
+            <state line="6" column="3" selection-start="151" selection-end="151" vertical-scroll-proportion="0.16216215">
               <folding />
             </state>
           </provider>
@@ -969,7 +949,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/articles/index.jst.eco">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.16216215">
+        <state line="6" column="3" selection-start="151" selection-end="151" vertical-scroll-proportion="0.16216215">
           <folding />
         </state>
       </provider>

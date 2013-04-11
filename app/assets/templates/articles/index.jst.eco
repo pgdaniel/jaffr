@@ -1,6 +1,10 @@
 <ul>
 <% for article in @articles.models: %>
-    <li><%= article.get('name') %></li>
+    <li>
+        <a href=<%= article.get('url')%> >
+            <%= article.get('name') %>
+        </a>
+    </li>
 <% end %>
 </ul>
 
