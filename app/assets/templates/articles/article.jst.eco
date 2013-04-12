@@ -1,0 +1,5 @@
+<div class="thumbnail">
+    <a href=<%= @article.url %>>
+        <%= @article.get('name') %>
+    </a>
+</div>

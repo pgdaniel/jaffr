@@ -1,5 +1,8 @@
 Jaffr::Application.routes.draw do
 
+  resources :categories
+
+
   root to: "reader#index"
 
   devise_for :users

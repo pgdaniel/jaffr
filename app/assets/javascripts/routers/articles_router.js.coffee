@@ -14,5 +14,3 @@ class Jaffr.Routers.Articles extends Backbone.Router
 
   show: (id) ->
     console.log "Article id = #{id}"
-
-

@@ -194,6 +194,7 @@ DEPENDENCIES
   jasmine
   jquery-rails
   less-rails
+  nokogiri
   pg
   rails (= 3.2.13)
   rspec-rails

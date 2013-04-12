@@ -9,6 +9,7 @@ gem 'pg'
 gem 'backbone-on-rails', '0.9.10.0'
 gem 'devise'
 gem 'feedzirra'
+gem 'nokogiri'
 
 
 # Gems used only for assets and not required
