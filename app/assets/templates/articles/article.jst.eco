@@ -1,5 +1,5 @@
 <div class="thumbnail">
-    <a href=<%= @article.url %>>
-        <%= @article.get('name') %>
-    </a>
+    <div class="caption">
+        <a href= <%= @article.get('url') %> target="_blank"><%= @article.get('name') %></a>
+    </div>
 </div>
